@@ -1,3 +1,4 @@
 public class Account {
-    private
+    private String accountName;
+    private String accountPassword;
 }
