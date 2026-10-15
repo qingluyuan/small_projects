@@ -6,6 +6,17 @@ public class Account {
     private double money;//余额
     private double limit;//限额
 
+    public Account(){};
+
+    public Account(String cardId, String name, String password, char sex, double money, double limit) {
+        this.cardId = cardId;
+        this.name = name;
+        this.password = password;
+        this.sex = sex;
+        this.money = money;
+        this.limit = limit;
+    }
+
     public String getCardId() {
         return cardId;
     }
